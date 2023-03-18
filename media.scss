@@ -1,0 +1,1258 @@
+// LOGIN PAGE
+
+@media (min-width: 1200px) {
+  .Login {
+    overflow-y: hidden;
+    align-items: center;
+    &-container {
+      margin: 0 auto;
+    }
+    .decor {
+      &:last-of-type {
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Login {
+    align-items: center;
+    &-container {
+      margin: 0 auto;
+      .logo {
+        width: 550px;
+        margin-bottom: 65px;
+      }
+      .Login-form {
+        .wrapper {
+          input {
+            width: 450px;
+          }
+        }
+      }
+    }
+    .decor {
+      width: 390px;
+      &:last-of-type {
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Login {
+    align-items: center;
+    &-container {
+      margin: 0 auto;
+      .logo {
+        width: 550px;
+        margin-bottom: 65px;
+      }
+      .Login-form {
+        .wrapper {
+          input {
+            width: 450px;
+          }
+        }
+      }
+    }
+    .decor {
+      width: 390px;
+      &:last-of-type {
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .Login {
+    align-items: center;
+    &-container {
+      margin: 0 auto;
+      .logo {
+        width: 480px;
+        margin-bottom: 65px;
+      }
+      .Login-form {
+        .wrapper {
+          input {
+            width: 400px;
+            &::placeholder {
+              font-size: 26px;
+            }
+          }
+          input[type="submit"] {
+            font-size: 34px;
+          }
+        }
+      }
+    }
+    .decor {
+      display: none;
+    }
+  }
+  .loader {
+    &-text {
+      font-size: 34px;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .Login {
+    align-items: center;
+    &-container {
+      margin: 0 auto;
+      .logo {
+        width: 320px;
+        margin-bottom: 40px;
+      }
+      .Login-form {
+        .wrapper {
+          input {
+            width: 320px;
+            height: 60px;
+            &::placeholder {
+              font-size: 24px;
+            }
+          }
+          input[type="submit"] {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+    .decor {
+      display: none;
+    }
+  }
+  .loader {
+    &-text {
+      font-size: 32px;
+    }
+  }
+}
+
+// LOGIN PAGE
+
+// MAIN
+
+@media (min-width: 1840px) {
+  body {
+    overflow-y: scroll !important;
+  }
+  .aside__button {
+    display: none;
+  }
+  .Dashboard {
+    .manage {
+      height: auto !important;
+    }
+  }
+}
+@media (min-width: 1500px) and (max-width: 1840px) {
+  .Dashboard {
+    #clock {
+      font-size: 32px;
+    }
+    .decor {
+      height: 35vh !important;
+    }
+    .manage {
+      width: 1100px !important;
+      height: auto !important;
+      .Table-header {
+        width: 100%;
+        font-size: 35px;
+        .Table-group {
+          height: 60px;
+          &:first-of-type {
+            width: 726px;
+          }
+          div {
+            font-size: 25px;
+          }
+        }
+      }
+      .Table {
+        #list_tour {
+          tr {
+            td {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+    .new {
+      height: auto !important;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .Dashboard {
+    .decor {
+      height: 30vh !important;
+    }
+    .manage {
+      width: 800px !important;
+      height: auto !important;
+      .Table-header {
+        width: 100%;
+        font-size: 35px;
+        .Table-group {
+          height: 50px;
+          &:first-of-type {
+            width: 726px;
+          }
+          div {
+            font-size: 22px;
+          }
+        }
+      }
+      .Table {
+        #list_tour {
+          tr {
+            height: 50px;
+            td {
+              font-size: 15px;
+              &:first-of-type {
+                width: 20%;
+                margin-left: 14px;
+              }
+              &:last-of-type {
+                max-width: 100%;
+                div {
+                  width: 50px;
+                  height: 50px;
+                  background-size: 25px 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .new {
+      height: auto !important;
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Dashboard {
+    #clock {
+      font-size: 28px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    .container {
+      align-items: center;
+      .title {
+        font-size: 30px !important;
+      }
+      .close-button {
+        width: 45px;
+        height: 45px;
+        background-size: 25px 25px;
+      }
+    }
+    .decor {
+      height: 20vh !important;
+    }
+    .manage {
+      width: 600px !important;
+      height: auto !important;
+      .Table-header {
+        width: 100%;
+        font-size: 35px;
+        gap: 18px;
+        .Table-group {
+          height: 50px;
+          &:first-of-type {
+            width: 600px;
+          }
+          div {
+            font-size: 18px;
+          }
+        }
+      }
+      .Table {
+        #list_tour {
+          tr {
+            min-height: 44px;
+            height: auto;
+            td {
+              font-size: 12px;
+              &:first-of-type {
+                width: 20%;
+                margin-left: 14px;
+              }
+              &:last-of-type {
+                max-width: 100%;
+                div {
+                  width: 40px;
+                  height: 40px;
+                  background-size: 20px 20px;
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .new {
+      height: auto !important;
+      width: 600px !important;
+      .list {
+        button {
+          min-height: 50px;
+          font-size: 30px;
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .aside__button {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 100000;
+    height: 25px;
+    transition: 0.3s all;
+    span {
+      width: 30px;
+      height: 3px;
+      background-color: #b7b7b7;
+      display: inline-block;
+      position: relative;
+      border-radius: 15px;
+      transition: 0.3s;
+      &::before,
+      &::after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        display: inline-block;
+        background-color: #b7b7b7;
+        position: absolute;
+        transition: 0.3s all;
+      }
+      &::before {
+        top: 8px;
+      }
+      &::after {
+        bottom: 8px;
+      }
+    }
+  }
+  .active {
+    left: 153px;
+    top: 24px;
+    span {
+      &::before {
+        transform: rotate(45deg);
+        top: 0;
+      }
+      &::after {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+    }
+    span {
+      width: 0;
+    }
+  }
+  .Sidebar {
+    opacity: 0;
+    z-index: -1000;
+    transition: 0.3s all;
+    width: 0;
+    position: absolute;
+    .logo {
+      width: 200px;
+    }
+    .button {
+      font-size: 17px;
+    }
+    .logout {
+      margin: auto 20px 50px;
+      .container {
+        width: 200%;
+        .logout-button {
+          font-size: 20px;
+        }
+        .entry {
+          width: 255px;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+  .active1 {
+    opacity: 1;
+    z-index: 100;
+    width: 320px;
+  }
+  .Dashboard {
+    height: 100vh;
+    .title {
+      font-size: 30px !important;
+    }
+    .close-button {
+      width: 45px;
+      height: 45px;
+      background-size: 25px 25px;
+    }
+    .decor {
+      height: 30vh !important;
+    }
+    .manage {
+      width: 600px !important;
+      height: auto !important;
+      .Table-header {
+        width: 100%;
+        font-size: 35px;
+        gap: 18px;
+        .Table-group {
+          height: 50px;
+          &:first-of-type {
+            width: 600px;
+          }
+          div {
+            font-size: 18px;
+          }
+        }
+      }
+      .Table {
+        #list_tour {
+          tr {
+            min-height: 44px;
+            height: auto;
+            td {
+              font-size: 12px;
+              &:first-of-type {
+                width: 20%;
+                margin-left: 14px;
+              }
+              &:last-of-type {
+                max-width: 100%;
+                div {
+                  width: 40px;
+                  height: 40px;
+                  background-size: 20px 20px;
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .new {
+      height: auto !important;
+      width: 600px !important;
+      .list {
+        button {
+          min-height: 50px;
+          font-size: 30px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .aside__button {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 100000;
+    height: 25px;
+    transition: 0.3s all;
+    span {
+      width: 30px;
+      height: 3px;
+      background-color: #b7b7b7;
+      display: inline-block;
+      position: relative;
+      border-radius: 15px;
+      transition: 0.3s;
+      &::before,
+      &::after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        display: inline-block;
+        background-color: #b7b7b7;
+        position: absolute;
+        transition: 0.3s all;
+      }
+      &::before {
+        top: 8px;
+      }
+      &::after {
+        bottom: 8px;
+      }
+    }
+  }
+  .active {
+    left: 153px;
+    top: 24px;
+    span {
+      &::before {
+        transform: rotate(45deg);
+        top: 0;
+      }
+      &::after {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+    }
+    span {
+      width: 0;
+    }
+  }
+  .Sidebar {
+    opacity: 0;
+    z-index: -1000;
+    transition: 0.3s all;
+    width: 0;
+    position: absolute;
+    i .logo {
+      width: 200px;
+    }
+    .button {
+      font-size: 17px;
+    }
+    .logout {
+      margin: auto 20px 50px;
+      .container {
+        width: 200%;
+        .logout-button {
+          font-size: 20px;
+        }
+        .entry {
+          width: 255px;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+  .active1 {
+    opacity: 1;
+    z-index: 100;
+    width: 320px;
+  }
+  .Dashboard {
+    height: 100vh;
+    #clock {
+      font-size: 20px !important;
+    }
+    .title {
+      font-size: 20px !important;
+    }
+    .close-button {
+      width: 45px;
+      height: 45px;
+      background-size: 25px 25px;
+    }
+    .decor {
+      height: 30vh !important;
+    }
+    .manage {
+      z-index: 10;
+      width: 500px !important;
+      height: auto !important;
+      .container {
+        align-items: center;
+        .title {
+          font-size: 25px !important;
+        }
+        .close-button {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .Table-header {
+        width: 100%;
+        font-size: 25px;
+        gap: 18px;
+        .Table-group {
+          height: 35px;
+          border-radius: 8px;
+          &:first-of-type {
+            width: 600px;
+          }
+          div {
+            font-size: 15px;
+          }
+        }
+      }
+      .Table {
+        #list_tour {
+          tr {
+            min-height: 44px;
+            height: auto;
+            td {
+              font-size: 10px;
+              line-height: 30px;
+              &:first-of-type {
+                width: 20%;
+                margin-left: 14px;
+              }
+              &:last-of-type {
+                max-width: 100%;
+                div {
+                  width: 30px;
+                  height: 30px;
+                  background-size: 15px 13px;
+                  border-radius: 10px;
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .new {
+      height: auto !important;
+      width: 500px !important;
+      .container {
+        margin-bottom: 15px;
+        align-items: center;
+        .title {
+          font-size: 25px !important;
+        }
+        .close-button {
+          width: 40px;
+          height: 40px;
+          background-size: 25px 25px;
+        }
+      }
+      .list {
+        button {
+          min-height: 50px;
+          font-size: 26px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .aside__button {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 100000;
+    height: 25px;
+    transition: 0.3s all;
+    span {
+      width: 30px;
+      height: 3px;
+      background-color: #b7b7b7;
+      display: inline-block;
+      position: relative;
+      border-radius: 15px;
+      transition: 0.3s;
+      &::before,
+      &::after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        display: inline-block;
+        background-color: #b7b7b7;
+        position: absolute;
+        transition: 0.3s all;
+      }
+      &::before {
+        top: 8px;
+      }
+      &::after {
+        bottom: 8px;
+      }
+    }
+  }
+  .active {
+    left: 153px;
+    top: 24px;
+    span {
+      &::before {
+        transform: rotate(45deg);
+        top: 0;
+      }
+      &::after {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+    }
+    span {
+      width: 0;
+    }
+  }
+  .Sidebar {
+    opacity: 0;
+    z-index: -1000;
+    transition: 0.3s all;
+    width: 0;
+    position: absolute;
+    i .logo {
+      width: 200px;
+    }
+    .button {
+      font-size: 17px;
+    }
+    .logout {
+      margin: auto 20px 50px;
+      .container {
+        width: 200%;
+        .logout-button {
+          font-size: 20px;
+        }
+        .entry {
+          width: 255px;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+  .active1 {
+    opacity: 1;
+    z-index: 100;
+    width: 320px;
+  }
+  .Dashboard {
+    height: 100vh;
+    #clock {
+      font-size: 20px !important;
+    }
+    .title {
+      font-size: 20px !important;
+    }
+    .close-button {
+      width: 45px;
+      height: 45px;
+      background-size: 25px 25px;
+    }
+    .decor {
+      height: 30vh !important;
+    }
+    .manage {
+      width: 350px !important;
+      height: auto !important;
+      padding: 40px 16px;
+      gap: 0;
+      .container {
+        align-items: center;
+        .title {
+          font-size: 20px !important;
+        }
+        .close-button {
+          width: 30px;
+          height: 30px;
+          background-size: 15px 15px;
+          border-radius: 10px;
+        }
+      }
+      .Table-header {
+        width: 95%;
+        font-size: 25px;
+        gap: 18px;
+        .Table-group {
+          height: 28px;
+          border-radius: 8px;
+          &:first-of-type {
+            width: 600px;
+          }
+          div {
+            font-size: 12px;
+          }
+        }
+      }
+      .Table {
+        #list_tour {
+          width: calc(96% + 20px);
+          tr {
+            min-height: 44px;
+            height: auto;
+            td {
+              font-size: 8px;
+              line-height: 25px;
+              &:first-of-type {
+                width: 20%;
+                margin-left: 14px;
+                border-radius: 8px 0 0 8px;
+              }
+              &:nth-of-type(3) {
+                width: 18%;
+              }
+              &:nth-of-type(4) {
+                border-radius: 0 8px 8px 0;
+              }
+              &:last-of-type {
+                max-width: 100%;
+                div {
+                  width: 22px;
+                  height: 22px;
+                  background-size: 10px 10px;
+                  border-radius: 6px;
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .new {
+      height: auto !important;
+      width: 350px !important;
+      .container {
+        margin-bottom: 15px;
+        align-items: center;
+        .title {
+          font-size: 20px !important;
+        }
+        .close-button {
+          width: 30px;
+          height: 30px;
+          background-size: 15px 15px;
+          border-radius: 10px;
+        }
+      }
+      .list {
+        button {
+          min-height: 34px;
+          font-size: 18px;
+          border-radius: 10px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// MAIN
+
+// VIEW
+
+@media (min-width: 1600px) and (max-width: 1870px) {
+  main {
+    header {
+      grid-template-columns: 1fr 3fr;
+    }
+  }
+  .tournament {
+    z-index: 1;
+    position: absolute;
+    transform: scale(0.73);
+    left: -1%;
+    height: 70vh;
+  }
+  .sidebar {
+    z-index: 10;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1599px) {
+  main {
+    header {
+      grid-template-columns: 1fr 3fr;
+    }
+  }
+  .tournament {
+    z-index: 1;
+    position: absolute;
+    transform: scale(0.73);
+    left: -4%;
+    height: 70vh;
+  }
+  .sidebar {
+    z-index: 10;
+    overflow-y: auto;
+    min-width: 345px;
+    h1 {
+      font-size: 55px;
+    }
+    hr {
+      height: 12px;
+    }
+    .sponsors {
+      p {
+        font-size: 30px;
+      }
+      .container {
+        img {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+  main {
+    header {
+      grid-template-columns: 1fr 3fr;
+      img {
+        &:first-of-type {
+          width: 250px;
+        }
+        &:nth-of-type(2) {
+          width: 320px;
+        }
+      }
+    }
+  }
+  .tournament {
+    z-index: 1;
+    position: absolute;
+    transform: scale(0.6) translateY(-30%);
+    left: -14%;
+    height: 100%;
+  }
+  .sidebar {
+    z-index: 10;
+    overflow-y: auto;
+    min-width: 252px;
+    h1 {
+      font-size: 35px;
+    }
+    hr {
+      height: 5px;
+      margin: 25px 0;
+    }
+    .sponsors {
+      p {
+        font-size: 25px;
+      }
+      .container {
+        img {
+          width: 110px;
+        }
+      }
+    }
+    .socials {
+      p {
+        font-size: 20px;
+      }
+      .container {
+        a {
+          img {
+            width: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  main {
+    header {
+      grid-template-columns: 1fr 3fr;
+      img {
+        &:first-of-type {
+          width: 195px;
+        }
+        &:nth-of-type(2) {
+          width: 195px;
+        }
+      }
+    }
+  }
+  .tournament {
+    z-index: 1;
+    position: absolute;
+    transform: scale(0.44);
+    left: -14%;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.5) translateY(-40%);
+    .winner {
+      padding: 50px;
+    }
+  }
+  .sidebar {
+    z-index: 10;
+    overflow-y: auto;
+    min-width: 200px;
+    padding: 50px 35px 0;
+    h1 {
+      font-size: 30px;
+    }
+    hr {
+      height: 5px;
+      margin: 25px 0;
+    }
+    .sponsors {
+      p {
+        font-size: 20px;
+      }
+      .container {
+        img {
+          width: 110px;
+        }
+      }
+    }
+    .socials {
+      p {
+        font-size: 20px;
+      }
+      .container {
+        a {
+          img {
+            width: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  main {
+    header {
+      grid-template-columns: 1fr 3fr;
+      img {
+        &:first-of-type {
+          width: 170px;
+        }
+        &:nth-of-type(2) {
+          width: 170px;
+        }
+      }
+    }
+  }
+  .tournament {
+    z-index: 1;
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    left: -28%;
+    width: 100%;
+    min-height: 100%;
+    height: 120%;
+    transform: scale(0.3) translateY(-70%);
+    .winner {
+      padding: 50px;
+    }
+    .act {
+      .round {
+        .team {
+          width: 322px;
+        }
+      }
+    }
+  }
+  .sidebar {
+    z-index: 10;
+    overflow-y: auto;
+    min-width: 179px;
+    padding: 50px 35px 0;
+    h1 {
+      font-size: 25px;
+    }
+    hr {
+      min-height: 3px;
+      height: 3px !important;
+      margin: 25px 0;
+    }
+    .sponsors {
+      p {
+        font-size: 20px;
+      }
+      .container {
+        img {
+          width: 100px;
+        }
+      }
+    }
+    .socials {
+      margin-bottom: 10px;
+      p {
+        font-size: 20px;
+      }
+      .container {
+        a {
+          img {
+            width: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    height: 400%;
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 180px;
+      img {
+        &:first-of-type {
+          width: 170px;
+        }
+        &:nth-of-type(2) {
+          width: 170px;
+        }
+      }
+    }
+  }
+  .tournament {
+    z-index: 1;
+    position: absolute;
+    left: -5%;
+    width: 193px;
+    min-height: 100%;
+    height: 351px;
+    transform: scale(0.3) translateY(-100%);
+    touch-action: manipulation;
+    .winner {
+      padding: 50px;
+    }
+    .act {
+      .round {
+        .team {
+          width: 322px;
+        }
+      }
+    }
+  }
+  .sidebar {
+    z-index: 10;
+    overflow-y: auto;
+    min-width: 179px;
+    padding: 50px 35px 0;
+    align-items: center;
+    h1 {
+      font-size: 25px;
+    }
+    hr {
+      min-height: 3px;
+      height: 3px !important;
+      margin: 25px 0;
+      width: 20%;
+    }
+    .sponsors {
+      p {
+        font-size: 20px;
+      }
+      .container {
+        img {
+          width: 100px;
+        }
+      }
+    }
+    .socials {
+      margin-bottom: 10px;
+      p {
+        font-size: 20px;
+      }
+      .container {
+        a {
+          img {
+            width: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    height: 400%;
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 180px;
+      img {
+        &:first-of-type {
+          width: 170px;
+        }
+        &:nth-of-type(2) {
+          width: 170px;
+        }
+      }
+    }
+  }
+  .tournament {
+    z-index: 1;
+    position: absolute;
+    left: -34%;
+    width: 100%;
+    min-height: 100%;
+    height: 351px;
+    transform: scale(0.2) translateY(-165%);
+    touch-action: manipulation;
+    .winner {
+      padding: 50px;
+    }
+    .act {
+      .round {
+        .team {
+          width: 322px;
+        }
+      }
+    }
+  }
+  .sidebar {
+    z-index: 10;
+    overflow-y: auto;
+    min-width: 179px;
+    padding: 50px 35px 0;
+    align-items: center;
+    h1 {
+      font-size: 25px;
+    }
+    hr {
+      min-height: 3px;
+      height: 3px !important;
+      margin: 25px 0;
+      width: 20%;
+    }
+    .sponsors {
+      p {
+        font-size: 20px;
+      }
+      .container {
+        img {
+          width: 100px;
+        }
+      }
+    }
+    .socials {
+      margin-bottom: 10px;
+      p {
+        font-size: 20px;
+      }
+      .container {
+        a {
+          img {
+            width: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// VIEW
