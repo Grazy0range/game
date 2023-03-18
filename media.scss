@@ -422,6 +422,7 @@
       width: 600px !important;
       height: auto !important;
       padding: 20px;
+      top: 30%;
       .Table-header {
         width: 100%;
         font-size: 35px;
@@ -540,7 +541,7 @@
       font-size: 17px;
     }
     .logout {
-      margin: auto 20px 50px;
+      margin: auto 20px 70px;
       .container {
         width: 200%;
         .logout-button {
@@ -580,6 +581,7 @@
       width: 500px !important;
       height: auto !important;
       padding: 20px;
+      top: 30%;
       .container {
         align-items: center;
         .title {
@@ -654,6 +656,11 @@
           width: 100%;
         }
       }
+      #form_create {
+        .container {
+          flex-direction: column !important;
+        }
+      }
     }
   }
 }
@@ -723,7 +730,7 @@
       font-size: 17px;
     }
     .logout {
-      margin: auto 20px 50px;
+      margin: auto 20px 70px;
       .container {
         width: 200%;
         .logout-button {
@@ -764,6 +771,7 @@
       padding: 40px 16px;
       gap: 0;
       padding: 20px;
+      top: 30%;
       .container {
         align-items: center;
         .title {
@@ -798,7 +806,7 @@
             min-height: 44px;
             height: auto;
             td {
-              font-size: 8px;
+              font-size: 7px;
               line-height: 25px;
               &:first-of-type {
                 width: 20%;
@@ -848,6 +856,11 @@
           font-size: 18px;
           border-radius: 10px;
           width: 100%;
+        }
+      }
+      #form_create {
+        .container {
+          flex-direction: column !important;
         }
       }
     }
