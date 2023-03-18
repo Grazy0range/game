@@ -154,6 +154,7 @@
 }
 @media (min-width: 1500px) and (max-width: 1840px) {
   .Dashboard {
+    overflow: auto;
     #clock {
       font-size: 32px;
     }
@@ -194,6 +195,7 @@
 
 @media (min-width: 1200px) and (max-width: 1499px) {
   .Dashboard {
+    overflow: auto;
     .decor {
       height: 30vh !important;
     }
@@ -243,6 +245,7 @@
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .Dashboard {
+    overflow: auto;
     #clock {
       font-size: 28px;
     }
@@ -376,6 +379,7 @@
     transition: 0.3s all;
     width: 0;
     position: absolute;
+    overflow-y: scroll;
     .logo {
       width: 200px;
     }
@@ -402,6 +406,7 @@
     width: 320px;
   }
   .Dashboard {
+    overflow: auto;
     height: 100vh;
     .title {
       font-size: 30px !important;
@@ -527,6 +532,7 @@
     transition: 0.3s all;
     width: 0;
     position: absolute;
+    overflow-y: scroll;
     i .logo {
       width: 200px;
     }
@@ -553,6 +559,7 @@
     width: 320px;
   }
   .Dashboard {
+    overflow: auto;
     height: 100vh;
     #clock {
       font-size: 20px !important;
@@ -707,6 +714,7 @@
     transition: 0.3s all;
     width: 0;
     position: absolute;
+    overflow-y: scroll;
     i .logo {
       width: 200px;
     }
@@ -733,6 +741,7 @@
     width: 320px;
   }
   .Dashboard {
+    overflow: auto;
     height: 100vh;
     #clock {
       font-size: 20px !important;
